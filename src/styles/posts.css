@@ -1,0 +1,93 @@
+.post-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  border: blue 5px solid;
+  min-height: 100%;
+  margin-left: 20%; /* Adjust this value as needed */
+}
+
+
+.post-container {
+  background-color: grey;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 20px); /* Adjust the margin value (20px) as needed */
+}
+
+
+.post-container h2 {
+  margin-bottom: 10px;
+}
+
+.post-container p {
+  margin: 5px 0;
+}
+
+.post-container p.timestamp {
+  color: #888;
+}
+
+
+
+
+.new-post-box {
+  background-color: black; /* White background */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+  border: solid 2px blue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: 25%;
+}
+
+.new-post-box h2 {
+  color: #ff4500; /* Reddit orange color */
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ff4500; /* Reddit orange color */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #cc3700; /* Darker shade of Reddit orange on hover */
+}
+
+textarea{
+  height: 200px
+}
