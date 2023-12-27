@@ -9,3 +9,5 @@ You can create posts and everyone in your local network can use it
 The Local Ip is hardcoded.
 Need to run express server locally on one host machine.
 3000 is the port of React and 5000 for express.
+
+### use /login in the URL to access the page
